@@ -1,0 +1,510 @@
+
+/* side bar menu */
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: menu;
+    src: url(Aileron-Bold.otf);
+}
+
+#sidebar{
+    position: fixed;
+    width:200px;
+    height:100%;
+    background: #efebe0;
+    left:-200px;
+    transition: all 500ms linear;
+}
+
+#sidebar.active{
+    left:0;
+}s
+
+
+#sidebar ul li{
+    color:black;
+    text-align: center;
+    list-style-type:none;
+    font-family: menu;
+
+}
+
+.logo{
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-left: -7px;
+}
+
+#sidebar .toggle-btn{
+    position:absolute;
+    left:230px;
+    top: 20px;
+    cursor:pointer;
+}
+
+
+#sidebar .toggle-btn span{
+    color: white;
+    display: block;
+    width: 40px;
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid white;
+}
+
+#sidebar .toggle-btn span:hover{
+    color: black;
+    border: 1px solid black;
+}
+@font-face {
+    font-family: menuf;
+    src: url(TT\ Drugs\ Trial\ Condensed\ Bold.otf);
+}
+#menu1{
+    text-decoration: none;
+    text-align: center;
+    list-style-type: none;
+    color:black;
+    font-family: menuf;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+@font-face {
+    font-family:homeb ;
+    src: url(Quicksand-Regular.otf);
+}
+
+.buttona{
+    background-color: #EFEBE0;
+    border: none;
+    height:40px;
+    width:150px;
+    margin-top: -170px;
+    margin-left: 675px;
+    position: absolute;
+    cursor: pointer;
+
+}
+
+.buttona a {
+    color:black;
+    font-size:16px;
+    margin-top:4px;
+    font-family: homeb;
+    text-decoration: none;
+}
+
+/* slide change */
+.button1{
+    width:30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 60%;
+    border:none;
+}
+
+#schange{
+    position: absolute;
+    margin-left: 685px;
+    margin-top: -120px;
+
+}
+
+
+@font-face{
+    font-family: name;
+    src: url("Chonburi-Regular.ttf");
+}
+
+#name{
+    font-family: name;
+    font-size:24px;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: -30px;
+}
+
+header{
+    background-color: white;
+    position:absolute;
+    height:20px;
+    width:615px;
+    margin-top: -25px;
+    margin-left: 800px;
+}
+
+#fav{
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+
+
+@font-face{
+    font-family: shop;
+    src: url(PTC55F.ttf);
+}
+
+#shop{
+    font-family: shop;
+    color: white;
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 530px;
+    font-size: 80px;
+}
+
+#shop:hover{
+    color:black;
+}
+
+#sectionh{
+    background-color: black;
+    height:60px;
+    width:100%;
+    margin-bottom: -8px;
+}
+#sectionh2{
+    background-color: black;
+    height:60px;
+    width:100%;
+    margin-top: 300px;
+    margin-bottom: -8px;
+    margin-left: 0px;
+}
+@font-face {
+    font-family: sectionh;
+    src: url(Roboto-Regular.ttf);
+}
+
+#copyright{
+    font-family: sectionh;
+    color: white;
+    font-size: 16px;
+    padding-top: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.t1{
+    margin-top: 25px;
+    position: center;
+}
+
+@font-face {
+    font-family: collectionh;
+    src: url(CreatoDisplay-Regular.otf);
+}
+#collectionh{
+    font-family:collectionh;
+    color:white;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 92px;
+    font-size: 20px;
+}
+
+#box2{
+    background-color: #534f4cbf;
+    height:90px;
+    width: 400px;
+    position: absolute;
+    margin-top: -260px;
+    margin-left: 540px;
+}
+
+#boxsw{
+    background-color: #534f4cbf;
+    height:90px;
+    width: 500px;
+    position: absolute;
+    margin-top: -260px;
+    margin-left: 480px;
+}
+#collectionsw{
+    font-family: shop;
+    color: white;
+    position: absolute;
+    margin-top: -4px;
+    margin-left: 29px;
+    font-size: 80px;
+}
+#collections{
+    font-family: shop;
+    color: white;
+    position: absolute;
+    margin-top: -4px;
+    margin-left: 28px;
+    font-size: 80px;
+}
+@font-face {
+    font-family: namec;
+    src: url(Arimo-Bold.ttf);
+}
+
+@font-face {
+    font-family: pricec;
+    src: url(Arimo-Regular.ttf);
+}
+#namec{
+    font-family: namec;
+
+}
+
+#pricec{
+    font-family: pricec;
+}
+
+/* names ambassadors*/
+@font-face {
+    font-family: ambassadors;
+    src: url(Chonburi-Regular.ttf);
+}
+#amba{
+    font-family: ambassadors;
+    color:white;
+    position: absolute;
+    margin-top: -285px;
+    margin-left: 370px;
+    font-size: 100px;
+}
+
+/* form */
+@font-face {
+    font-family: formb;
+    src: url(MADEINFINITY\ PERSONALUSE-Light.otf);
+}
+form{
+    margin-left: 30px;
+    font-family: formb;
+    margin-top: 40px;
+
+}
+#section{
+    background-color: #efebe0df;
+    height: 600px;
+    width:700px;
+    margin-left: 380px;
+    margin-top: 100px;
+}
+
+#formback{
+    background-image: url("formb1.jpg.webp");
+    min-height: 800px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@font-face {
+    font-family: formti;
+    src: url(Hertical\ Sans.ttf);
+}
+#formt{
+    font-family: formti;
+    font-size: 25px;
+    margin-left: 110px;
+    padding-top: 20px;
+}
+#formt2{
+    font-family: formti;
+    font-size: 25px;
+    margin-left: 45px;
+    padding-top: 40px;
+}
+/* button form */
+.buttonf{
+    border-radius: 15px;
+    background-color: #d2b49b;
+    border: none;
+    height:40px;
+    width:150px;
+    margin-top: 10px;
+}
+
+#ca{
+    color:white;
+    font-size:16px;
+    margin-top:4px;
+    font-family: formb;
+    text-decoration: none;
+}
+
+#imgf2{
+    width:700px;
+    height:500px;
+    margin-top:-20px;
+}
+
+.buttonf2{
+    border-radius: 15px;
+    background-color: #d2b49b;
+    border: none;
+    height:40px;
+    width:250px;
+    margin-left: 230px;
+}
+
+#section2{
+    background-color: #efebe0df;
+    height: 700px;
+    width:700px;
+    margin-left: 380px;
+    margin-top: 100px;
+}
+
+
+/* collections */
+
+#sc2{
+    font-family: shop;
+    color: white;
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 375px;
+    font-size: 80px;
+}
+#cimg{
+    margin-left: -470px;
+    width: 400px;
+    height:300px;
+}
+#cimg2{
+    padding-left: 280px;
+    margin-top: -130px;
+    width: 500px;
+    height:150px;
+    position: absolute;
+}
+#boxc{
+    background-color: #DBD0C0;
+    height: 60px;
+    width: 300px;
+    border-radius: 15px;
+    margin-top: 20px;
+    
+}
+
+#boxcc{
+    background-color: #DBD0C0;
+    height: 60px;
+    width: 360px;
+    border-radius: 15px;
+    margin-top: 20px;
+    
+}
+
+#cff{
+    font-family: ambassadors;
+    color:white;
+    position: absolute;
+    font-size: 40px;
+    margin-top: 7px;
+    margin-left: 43px;
+}
+#boxc2{
+    background-color: #DBD0C0;
+    height: 275px;
+    width: 830px;
+    margin-top: -280px;
+    position: absolute;
+    
+}
+
+#cf{
+    font-family: ambassadors;
+    color:white;
+    position: absolute;
+    font-size: 40px;
+    margin-top: 7px;
+    margin-left: 50px;
+}
+
+@font-face {
+    font-family: collections;
+    src: url(Aileron-Regular.otf);
+}
+
+#cfont{
+    font-family: collections;
+    font-size: 16px;
+    padding:8px;
+    text-align:justify;
+    color: white;
+}
+
+#cfont2{
+    font-family: collections;
+    font-size: 14px;
+    padding:8px;
+    text-align:justify;
+    color: white;
+}
+
+
+.text{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 28px;
+    font-family: text;
+    text-align: justify;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+@font-face {
+    font-family: text;
+    src: url(CreatoDisplay-Regular.otf);
+}
+
+#djs{
+    margin-top: 17px;
+    margin-left: 40px;
+    background-color: #DBD0C0;
+    width: 100px;
+    height:40px;
+    font-size: 16px;
+    border-radius: 15px;
+    border: none;
+}
+
+#showDate{
+    color: black;
+    margin-top: -28px;
+    margin-left: 150px;
+    font-family: text;
+}
+
+/* about us */
+
+#title{
+    background-color:#DBD0C0;
+    color: white;
+    height: 60px;
+    width: 200px;
+    border-radius: 15px;
+    margin-top: 20px;
+    font-family: ambassadors;
+    font-size: 35px;
+    padding-left: 33px;
+    padding-top: 20px;
+    margin-left: 160px;
+    float: inline-start;
+}
+
+#info{
+    background-color:#DBD0C0;
+    color: white;
+    width: 300px;
+    text-align: justify;
+    border-radius: 15px;
+    margin-top: 20px;
+    font-family: text;
+    font-size: 18px;
+    padding: 25px;
+    margin-left: 100px;
+    float: inline-start;
+}
